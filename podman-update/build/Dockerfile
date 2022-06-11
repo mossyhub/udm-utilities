@@ -3,7 +3,7 @@ FROM golang:1.16-stretch
 # Currenrtly supported versions: UDM-Pro, UDM-SE
 ARG UDM_PLATFORM=UDM-Pro
 
-ARG PODMAN_VERSION=v3.4.4
+ARG PODMAN_VERSION=v3.2.3
 ARG RUNC_VERSION=v1.1.0
 ARG CONMON_VERSION=v2.1.0
 
